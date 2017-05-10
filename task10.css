@@ -1,0 +1,248 @@
+header{
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    background-color: #1d7ad9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.phone{
+    font-size: 14px;
+    font-family:Microsoft YaHei;
+    display: inline-block;
+    line-height: 40px;
+}
+.navb{
+    font-size: 16px;
+    display: inline-block;
+    line-height: 40px;
+}
+.bg:hover {
+
+    background-color: #ffffff;
+    text-decoration: none;
+}
+head a:hover{
+    text-decoration: none;
+}
+.bg:hover .bg1{
+    color: black;
+}
+.bg{
+    height: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.bg1{
+    height: 40px;
+    color: white;
+}
+.bg2{
+    background-color: #fafafa;
+}
+li.btn-bg{
+    background-color: white;
+    font-size: 16px;
+    color: #000000;
+    margin: 10px 20px 10px 20px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+.btn-bg:hover{
+
+    background-color: #1d7ad9;
+    color:#ffffff !important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#ffffff !important;
+}
+.line{
+    margin:3% 0;
+    position: relative;
+    margin-bottom:40px;
+    background-color: #cccccc;
+    height: 5px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #cccccc;
+    top: -8px;
+    left:48.5%;
+    text-align: center;
+    color: #ffffff;
+}
+.orange{
+    background-color: #ff7f02;
+}
+.pst{
+    margin: 20px 0 0 0;
+    text-align:center ;
+    top: 30px;
+    font-size: 18px;
+    color: #cccccc;
+}
+main{
+    margin-top: 30px;
+
+}
+.word{
+    font-size: 22px;
+    font-family: "Microsoft YaHei UI";
+}
+.warp{
+    background-color: #cccccc;
+    padding:10px 0;
+}
+.word2{
+    display: inline-block;
+    color: #1d7ad9 ;
+    font-size: 18px;
+    padding:0.5% 0 ;
+}
+.rowradio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+    color: #666;
+}
+.chekbox{
+    color: #666666;
+    font-size: 18px;
+    padding:3% 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box
+}
+.chekbox1{
+    color: #666666;
+    font-size: 18px;
+    padding:3% 0 0 0;
+
+    box-sizing: border-box
+}
+
+.chart{
+    color:#666666;
+    font-size: 18px;
+    width: 50%;
+    height:20px;
+}
+@media screen and (max-width:996px){
+    .chart{
+        width: 10%;
+    }
+}
+select {
+    border: 1px #f3f3f3 solid;
+    float: right;
+    -webkit-appearance: none;
+    background: url(img/icon-6.png) no-repeat scroll right center transparent;
+    padding: 4px 40px 4px 0;
+    font-size: 16px;
+}
+.ipt{
+    width: 10%;
+}
+footer .text{
+    color: #a8a8a8;
+    font-size: 18px;
+
+}
+footer span{
+    display:inline-block;
+    margin-left: 10%;
+    font-size: 16px;
+    color: #a8a8a8 ;
+    padding: 1% 1% 1% 0;
+}
+footer  a:hover{
+    text-decoration: none;
+
+}
+footer span:hover{
+    color:#1d7ad9;
+}
+footer .wp{
+    font-size: 14px;
+    color: #a8a8a8 ;
+}
+.copyright {
+
+    padding: 10px 0;
+
+
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #1d7ad9;
+}
+.nextway {
+    padding: 10% 0;
+    border: 1px #ccc solid;
+    text-align: center;
+}
+.butn1{
+    padding:1% 3%;
+    font-size: 24px;
+}
+label {
+
+    background: url(img/icon-5.png) no-repeat 10px 0px;
+    height: 18px;
+    padding-left: 5px;
+    display: inline-block;
+    line-height: 20px;
+}
+input[type=radio]:checked+label{
+    background-image: url(img/icon-4.png);
+    height: 18px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display:inline-block;
+}
+.radio-inline, .checkbox-inline{
+    padding-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+.text-position{
+    text-align: right;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width:996px){
+    .text-position{
+        text-align: left;
+        padding-left: 15px;
+    }
+    footer span{
+        margin-left: 0;
+    }
+}
+.inbl{
+    display: inline-block;
+}
+input[type="text"].chart{
+    box-sizing: border-box;
+    margin-bottom:5px ;
+
+    font-size:1.4em;
+    height:30px;
+    border-radius:4px;
+    border:1px solid #cccccc;
+    color:#6a6f77;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    display:inline-block;
+    outline:0;
+    padding:0 1em;
+    text-decoration:none;
+    width:20%;
+}
