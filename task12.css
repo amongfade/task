@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 62.5%;
+}
+.homepage {
+  width: 100%;
+  max-width: 640px;
+  background-color: #5fc0cd;
+  text-align: center;
+  color: white;
+  padding: 2% 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+.homepage a {
+  position: absolute;
+  left: 4%;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.homepage span {
+  font-size: 1.5rem;
+}
+main {
+  padding-top: 9%;
+  padding-bottom: 20%;
+}
+main .data {
+  background: url("images/task52.png");
+  background-size: 100% 100%;
+  padding: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+main .data .data-img {
+  width: 100%;
+}
+main .data .data-p {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+main .ability {
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+}
+main .ability .ability-0 {
+  border-bottom: 1px solid #c0c0c0;
+  padding: 2%;
+}
+main .ability .ability-0 p {
+  border-left: 2px solid #5fc0cd;
+  padding-left: 2%;
+}
+main .ability .ability-1 {
+  border-bottom: 1px solid #c0c0c0;
+  margin: 0 2%;
+  padding: 2%;
+  overflow: hidden;
+}
+main .ability .introduce {
+  color: #999999;
+}
+main .ability .introduce-1 {
+  color: #999999;
+  float: left;
+}
+main .ability .introduce-2 {
+  display: -webkit-box;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 640px;
+}
+footer .foot-button {
+  width: 100%;
+  padding: 5% 0;
+  text-align: center;
+}
+footer .foot-button .foot-button-1 {
+  width: 45%;
+  background-color: white;
+  padding: 2% 0;
+  font-size: 1.5rem;
+  color: #5fc0cd;
+  border-radius: 10px;
+}
+footer .foot-button .foot-button-2 {
+  width: 45%;
+  background-color: #5fc0cd;
+  padding: 2% 0;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 10px;
+}
